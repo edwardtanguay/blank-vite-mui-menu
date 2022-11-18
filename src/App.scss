@@ -1,0 +1,38 @@
+body {
+	background-color: #333;
+	color: #ccc;
+	font-family: sans-serif;
+	padding: 0 1rem;
+
+	h1 {
+		color: rgb(209, 168, 85);
+	}
+
+	nav {
+		padding: .5rem;
+
+		.navHeader {
+			display: inline-block;
+			margin-right: 1.9rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: rgb(50, 50, 108);
+			font-size: 1.4rem;
+			text-shadow: 1px 1px 17px rgb(170, 170, 202);
+		}
+
+		a {
+			color: #aaa;
+			text-decoration: none;
+			margin-right: 1rem;
+		}
+
+		a.active {
+			color: rgb(224, 230, 42);
+		}
+	}
+
+	.page {
+		padding: .1rem .3rem;
+	}
+}
