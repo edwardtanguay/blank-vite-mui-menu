@@ -10,12 +10,11 @@ import Typography from '@mui/material/Typography';
 function App() {
 	return (
 		<div className="App">
-			<h1>Info Site</h1>
 			<AppBar className="appBar">
 				<Toolbar>
 					<Typography variant="h6" color="inherit" component="div">
 						<nav>
-							<span className="navHeader">Website</span>
+							<span className="navHeader">Info Site</span>
 							<NavLink to="/welcome">Welcome</NavLink>
 							<NavLink to="/info">Info</NavLink>
 							<NavLink to="/about">About</NavLink>
